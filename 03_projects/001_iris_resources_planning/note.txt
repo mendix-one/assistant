@@ -1,0 +1,53 @@
+IRIS - Expectation from SamSung
+0. Enhance current P/M (Personal Monthly) Planner Simulation:
+- Upgrade to Mendix 10
+- Enhance custom widgets
+- Build new custom widget and UI Standard
+
+1. Manage sperately Resoruce Roadmap and Resource Simulation
+- User create a Resource Simulation from Resoruce Roadmap
+- Resource Simulation manage version history
+
+2. Manage Version History for not Resoruce Roadmap but for each project
+- Only changed projects SHOULD be sent to PROMIS (Profit System). (All projects are now sent.)
+- Only change projects SHOULD be sent to N-PLM
+- Diff view between Roadmap version
+
+3. Standard P/M
+- Concurrent saving - Auto-Merging, Conflict detect and resolve (Pass/Overwrite)
+- When saving, User should be able to show Diff view between Saving version and Last version
+- Manage Saving - Confirmation Process
+ + Send email to manager
+ + When Users with specified Role saving, it (Standard P/M) is saved as Draft Version.
+ + Afterward it saved as Permernant Version by Approval of manager
+
+4. Resource Roadmap & Simulation
+- Save expectation with 1.3
+
+5. N-PLM intergration (Master Data Management)
+
+6. Factor Control
+ -> Apply filtering using Factor Control
+
+ 7 Main Screen Renewal
+  - Home screen (World map and display Resourcs statistic of each sites)
+  - Main Menu (Navigate to Site and Project based on User Roles and Department)
+
+8. Analysis view:
+- World Map view
+- Personal view
+
+9. HeadCount Portfolio
+- Staffing Plan
+- Analysis View
+
+10. Analysis Reporting (Included Chart WIdget , tables, etc...)
+- Periodically Analysis Reporting (Automatically Mail Sending - Smart Notify)
+- Manually Analysis Reporting
+
+11. AI Based Reporting
+- Create and download Excel PIVOT using SamSung AI Serivces
+
+12. Install & Configure new server (by TA) Aprial ~ July
+- Config new QA and Prod Server (Apply clust arhictect for all layers include Elasticsearch Master-Data Node)
+- Migrate Data to QA and Prod Server
